@@ -1,0 +1,18 @@
+body {
+    font-family: "Segoe UI", sans-serif
+}
+
+.pelicula {
+    display: grid;
+}
+
+div#peliculas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
